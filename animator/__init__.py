@@ -1,9 +1,9 @@
 '''
 __init__.py
-package: animator
+library: animator
 author: Tanish Yadav <https://github.com/tanishyadav>
 
-It is recommended to import the package itself instead of this file
+It is recommended to import the library itself instead of this file
 
 WARNING: Code is very fragile | Handle with great care
 '''
