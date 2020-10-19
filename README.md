@@ -45,6 +45,8 @@ Samples can be found [here](https://github.com/tanishyadav/animator/blob/main/sa
 ## Contributing
 Animator is open to contribution. You can contribute [here](https://github.com/tanishyadav/animator).
 
+## Maintainers
+- [Tanish Yadav](https://github.com/tanishyadav)
 ## Issues
 If you find a bug or issue, you can raise an issue [here](https://github.com/tanishyadav/animator/issues/new).
 ## License
