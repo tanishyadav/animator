@@ -5,11 +5,11 @@ Animator is a terminal based animation library for python.
 ## Installation
 
 - Using the package manager pip to install Animator.
-
 ```bash
 pip install animator
 ```
-- Or you can install using the [zip file](https://github.com/tanishyadav/animator/archive/main.zip). Go to the directory where you extracted the zip and run
+or
+- Clone this repo with git, cd to the directory and run
 ```bash
 python setup.py install
 ```
@@ -17,27 +17,30 @@ python setup.py install
 ## Usage
 
 ```python
-import Animator as anim
+import animator as anim
+import os
 
-anim.expand() # makes a expanding animation
-anim.contract() # makes a contracting animation
+width = os.get_terminal_size().columns
+hieght = os.get_terminal_size().lines
+anim.expand(width, height)                # makes an expanding animation
+anim.contract(width, height)              # makes a contracting animation
 ```
 1. ```expand(width, height, color="\033[0m", print_char="#", time_p_f=0.1)```
-- width is the width of the console which you can give as os.get_terminal_size().columns
-- height is the height of the console which you can give as os.get_terminal_size().lines
+- width is the maximum width, the animation will take.
+- height is the maximum height, the animation will take.
 - color is the ansi code for color of the animation. It deafaults to "\033[0m".
 - print_char is the character which will be used to make the animation. It deafauts to "#".
 - time_p_f is the time in seconds between every frame. It deafaults to 0.1.
 
 2. ```contract(width, height, color="\033[0m", print_char="#", time_p_f=0.1)```
-- width is the width of the console which you can give as os.get_terminal_size().columns
-- height is the height of the console which you can give as os.get_terminal_size().lines
+- width is the maximum width, the animation will take.
+- height is the maximum height, the animation will take.
 - color is the ansi code for color of the animation. It deafaults to "\033[0m".
 - print_char is the character which will be used to make the animation. It deafauts to "#".
 - time_p_f is the time in seconds between every frame. It deafaults to 0.1.
 
 ## Platform
-Animator is OS Independent.
+Animator has been tested to work on Linux and Windows. It should work on MacOS as well.
 
 ## Sample
 Samples can be found [here](https://github.com/tanishyadav/animator/blob/main/samples).
@@ -50,4 +53,6 @@ Animator is open to contribution. You can contribute [here](https://github.com/t
 ## Issues
 If you find a bug or issue, you can raise an issue [here](https://github.com/tanishyadav/animator/issues/new).
 ## License
-[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+GNU General Public License v3.0 or later
+
+See COPYING to see the full text.
