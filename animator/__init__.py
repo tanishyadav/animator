@@ -1,12 +1,26 @@
 '''
-__init__.py
-library: animator
-author: Tanish Yadav <https://github.com/tanishyadav>
+Animator is a terminal based animation library for python.
 
-It is recommended to import the library itself instead of this file
+Copyright (C) 2020 Tanish Yadav
 
-WARNING: Code is very fragile | Handle with great care
+This file is part of Animator.
+
+Animator is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Animator is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 '''
+
+# WARNING: Code is very fragile | Handle with great care
+
 import os
 import sys
 import time
