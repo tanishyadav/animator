@@ -56,3 +56,13 @@ If you find a bug or issue, you can raise an issue [here](https://github.com/tan
 GNU General Public License v3.0 or later
 
 See COPYING to see the full text.
+
+<!--
+  ______            _      ____  __          __           
+ /_  __/___ _____  (_)____/ /\ \/ /___ _____/ /___ __   __
+  / / / __ `/ __ \/ / ___/ __ \  / __ `/ __  / __ `/ | / /
+ / / / /_/ / / / / (__  ) / / / / /_/ / /_/ / /_/ /| |/ / 
+/_/  \__,_/_/ /_/_/____/_/ /_/_/\__,_/\__,_/\__,_/ |___/  
+
+WAS HERE
+-->
