@@ -43,7 +43,7 @@ anim.contract(width, height)              # makes a contracting animation
 Animator has been tested to work on Linux and Windows. It should work on MacOS as well.
 
 ## Sample
-Samples can be found [here](https://github.com/tanishyadav/animator/blob/main/samples).
+Samples can be found [here](https://github.com/tanishyadav/animator/tree/master/samples).
 
 ## Contributing
 Animator is open to contribution. You can contribute [here](https://github.com/tanishyadav/animator).
